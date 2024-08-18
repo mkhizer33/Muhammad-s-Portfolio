@@ -1,11 +1,7 @@
 # Muhammad's ePortfolio
 
-![Muhammad's ePortfolio Preview](https://link_to_your_image_here.jpg)
-
 ## Sections
-- **Code Review** :blue_circle:
-  - Description and insights into code review practices and experiences.
-  
+ 
 - **Artifacts**
   - **Artifact One** :blue_square:
     - [Original](link_to_artifact_one_original)
