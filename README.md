@@ -3,15 +3,14 @@
 ## Sections
  
 - **Artifacts**
-  - **Artifact One** 📘_square:
+  - **Artifact One** 🟨
     - [Artifact One - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/OriginalAutoService.txt)
     - [Artifact One - Enhanced Version](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/EnhancedAutoService.py)
   
   - **Artifact Two** :orange_square:
-    - [Original](link_to_artifact_two_original)
-    - [Enhanced Version](link_to_artifact_two_enhanced)
-  
+    - [Artifact Two - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Databases/Original%20Database%20Artifact.docx)
+       
 - **Enhancement Narratives** :purple_circle:
-  - [Software Design and Engineering](link_to_enhancement_one_narrative)
-  - [Algorithms and Data Structures](link_to_enhancement_two_narrative)
-  - [Databases](link_to_enhancement_three_narrative)
+  - [Enhancement one Narratives - Software Design and Engineering](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/3-2%20Milestone%20Two%20Enhancement%20One%20Software%20Design%20and%20Engineering.docx)
+  - [Enhancement two Narratives - Algorithms and Data Structures](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Algorithms%20and%20Data%20Structures/4-2%20Milestone%20Three%20Enhancement%20Two%20Algorithms%20and%20Data%20Structure.docx)
+  - [Enhancement three Narratives - Databases](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Databases/5-2%20Milestone%20Four%20Enhancement%20Three%20Databases.docx)
