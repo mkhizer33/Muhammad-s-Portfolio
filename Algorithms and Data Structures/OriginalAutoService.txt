@@ -1,0 +1,38 @@
+print('Davy\'s auto shop services')
+print('Oil change -- $35')
+print('Tire rotation -- $19')
+print('Car wash -- $7')
+print('Car wax -- $12\n')
+
+prices = {
+    'Oil change': 35,
+    'Tire rotation': 19,
+    'Car wash': 7,
+    'Car wax': 12,
+    '-': 0
+}
+
+serviceA = input('Select first service: \n')
+print()
+serviceB = input('Select second service: \n')
+print()
+print()
+
+print('Davy\'s auto shop invoice\n')
+
+if prices[serviceA] > 0:
+    print('Service 1:', serviceA, end='')
+    print(', $', end='') 
+    print(prices[serviceA])
+else:
+    print('Service 1: No service')
+if prices[serviceB] > 0:
+    print('Service 2:', serviceB, end='')
+    print(', $', end="")
+    print(prices[serviceB])
+else:
+    print('Service 2: No service')
+print()
+
+print('Total:', '$', end='')
+print(prices[serviceA] + prices[serviceB])
