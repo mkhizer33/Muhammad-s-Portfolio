@@ -3,7 +3,7 @@
 ## Sections
  
 - **Artifacts**
-  - **Artifact One** :Yellow_square:
+  - **Artifact One** 📘_square:
     - [Artifact One - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/OriginalAutoService.txt)
     - [Artifact One - Enhanced Version](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/EnhancedAutoService.py)
   
