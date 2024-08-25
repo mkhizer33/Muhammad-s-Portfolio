@@ -1,0 +1,79 @@
+import os
+
+# Constants for service prices and terminal settings
+SERVICE_PRICES = {
+    'oil change': 35,
+    'tire rotation': 19,
+    'car wash': 7,
+    'car wax': 12,
+    'no service': 0
+}
+
+# ASCII art banners for visual enhancement
+ASCII_BANNER = r"""
+       _____                    _                     _           _____ _                    _____                 _               
+      |  __ \                  ( )         /\        | |         / ____| |                  / ____|               (_)              
+      | |  | | __ ___   ___   _|/ ___     /  \  _   _| |_ ___   | (___ | |__   ___  _ __   | (___   ___ _ ____   ___  ___ ___  ___ 
+      | |  | |/ _` \ \ / / | | | / __|   / /\ \| | | | __/ _ \   \___ \| '_ \ / _ \| '_ \   \___ \ / _ \ '__\ \ / / |/ __/ _ \/ __|
+      | |__| | (_| |\ V /| |_| | \__ \  / ____ \ |_| | || (_) |  ____) | | | | (_) | |_) |  ____) |  __/ |   \ V /| | (_|  __/\__ \
+      |_____/ \__,_| \_/  \__, | |___/ /_/    \_\__,_|\__\___/  |_____/|_| |_|\___/| .__/  |_____/ \___|_|    \_/ |_|\___\___||___/
+                           __/ |                                                   | |                                             
+                          |___/                                                    |_|                                            
+"""
+
+def resize_terminal():
+    """Resize terminal window for optimal display of ASCII art."""
+    os.system('mode 145, 40')
+
+def display_banner():
+    """Display ASCII art banner."""
+    print(ASCII_BANNER)
+
+def list_services():
+    """Print a list of available services and prices."""
+    print('\nAvailable services:')
+    for service, price in SERVICE_PRICES.items():
+        print(f"{service.capitalize()} -- ${price}")
+
+class ServiceRequest:
+    """Class to handle service requests and pricing."""
+    def __init__(self):
+        self.service = self.prompt_for_service()
+        self.price = SERVICE_PRICES[self.service]
+
+    def prompt_for_service(self):
+        """Prompt user for service selection with validation."""
+        while True:
+            service = input("Select a service: ").lower()
+            if service in SERVICE_PRICES:
+                return service
+            print("Please select a valid service!")
+
+    def display_service_info(self):
+        """Display the selected service and price."""
+        if self.price > 0:
+            print(f"Service: {self.service.capitalize()} - ${self.price}")
+        else:
+            print("No service selected")
+
+def main():
+    resize_terminal()
+    display_banner()
+    list_services()
+
+    # Handling multiple service requests
+    requests = []
+    while True:
+        service_request = ServiceRequest()
+        requests.append(service_request)
+        service_request.display_service_info()
+        if input("Add another service? (yes/no): ").lower() == 'no':
+            break
+
+    total_price = sum(request.price for request in requests)
+    print(f"\nTotal cost for all services: ${total_price}")
+
+    os.system("pause")
+
+if __name__ == "__main__":
+    main()
