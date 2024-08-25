@@ -2,15 +2,18 @@
 
 ## Sections
 
--**Code Review**
- 
+- **Code Review**
+
+   [Code Review](https://github.com/tcornell95/tcornell95.github.io/tree/main/Code%20Review)
 - **Artifacts**
   - **Artifact One** 🟨
     - [Artifact One - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/OriginalAutoService.txt)
     - [Artifact One - Enhanced Version](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/EnhancedAutoService.py)
+    - [Artifact One - Update version](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/updatedEnhancedAutoService)
   
   - **Artifact Two** 🟣
     - [Artifact Two - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Databases/Original%20Database%20Artifact.docx)
+    - [Artifact Two - Enhancement Three](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Databases/Enhanced%20Database%20Artifact.docx)
        
 - **Enhancement Narratives** 🟡
   - [Enhancement one Narratives - Software Design and Engineering](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/3-2%20Milestone%20Two%20Enhancement%20One%20Software%20Design%20and%20Engineering.docx)
