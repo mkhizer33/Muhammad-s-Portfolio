@@ -4,7 +4,7 @@
 
 - **Code Review**
 
-   [Code Review](https://github.com/tcornell95/tcornell95.github.io/tree/main/Code%20Review)
+   [Code Review]
 - **Artifacts**
   - **Artifact One** 🟨
     - [Artifact One - Original](https://github.com/mkhizer33/Muhammad-s-Portfolio/blob/main/Software%20Design%20and%20Engineering/OriginalAutoService.txt)
